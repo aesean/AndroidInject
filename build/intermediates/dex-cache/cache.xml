@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/media/xl/Code/Github/AeseanInject/app/build/intermediates/exploded-aar/AeseanInject/injectlib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2a4487da42b4f0ca65e8d154ea748b14d882ec1c">
+        <dex dex="/media/xl/Code/Github/AeseanInject/app/build/intermediates/pre-dexed/debug/classes-628befbd9fb4e76a2cac8a390c75c9a7f188b310.jar" />
+    </item>
+
+</items>
