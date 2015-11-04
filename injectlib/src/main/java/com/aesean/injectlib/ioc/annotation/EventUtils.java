@@ -26,11 +26,15 @@ public class EventUtils {
     private EventUtils() {
     }
 
-    public final static String SET_ON_CLICK_LISTENER = "setOnClickListener";
-    public final static String SET_ON_LONGCLICK_LISTENER = "setOnLongClickListener";
-    public final static String SET_ON_CLICK_LISTENER_CALLBACK = "onClick";
-    public final static String SET_ON_LONGCLICK_LISTENER_CALLBACK = "onLongClick";
+    public static final String SET_ON_CLICK_LISTENER = "setOnClickListener";
+    public static final String SET_ON_LONG_CLICK_LISTENER = "setOnLongClickListener";
 
-    public final static String FIND_VIEW_BY_ID = "findViewById";
-    public final static String SET_CONTENT_VIEW = "setContentView";
+    public static final String SET_ON_CLICK_LISTENER_CALLBACK = "onClick";
+    public static final String SET_ON_LONG_CLICK_LISTENER_CALLBACK = "onLongClick";
+
+    public static final String SET_ON_CHECKED_CHANGE_LISTENER = "setOnCheckedChangeListener";
+    public static final String SET_ON_CHECKED_CHANGE_LISTENER_CALLBACK = "onCheckedChanged";
+
+    public static final String FIND_VIEW_BY_ID = "findViewById";
+    public static final String SET_CONTENT_VIEW = "setContentView";
 }
