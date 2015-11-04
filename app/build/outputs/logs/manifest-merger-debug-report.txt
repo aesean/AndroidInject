@@ -1,43 +1,59 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:2:1-11:12
+ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:3:5-38
-		INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
-		INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
+		ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
-		INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
-		INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
 application
-ADDED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:5:5-9:55
-MERGED from [com.android.support:appcompat-v7:22.2.1] /media/xl/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] /media/xl/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
-MERGED from [AndroidInject:injectlib:unspecified] /media/xl/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/AndroidInject/injectlib/unspecified/AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support:appcompat-v7:22.2.1] /media/xl/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:22.2.1] /media/xl/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/jackey/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/jackey/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [AndroidInject:injectlib:unspecified] /home/jackey/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/AndroidInject/injectlib/unspecified/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/jackey/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] /home/jackey/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:8:9-41
 	android:allowBackup
-		ADDED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:9:9-40
+		ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:9:9-40
+activity#com.aesean.aeseaninject.MainActivity
+ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:12:13-45
+	android:name
+		ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:11:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml:16:27-74
 uses-sdk
-INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:22.2.1] /media/xl/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] /media/xl/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
-MERGED from [AndroidInject:injectlib:unspecified] /media/xl/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/AndroidInject/injectlib/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:22.2.1] /media/xl/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:22.2.1] /media/xl/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/jackey/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /home/jackey/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [AndroidInject:injectlib:unspecified] /home/jackey/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/AndroidInject/injectlib/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.0] /home/jackey/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] /home/jackey/Code/Github/AndroidInject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
-		INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
-		INJECTED from /media/xl/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jackey/Code/Github/AndroidInject/app/src/main/AndroidManifest.xml
