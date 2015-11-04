@@ -16,20 +16,18 @@
 
 package com.aesean.aeseaninject;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.aesean.injectlib.ioc.InjectActivity;
 import com.aesean.injectlib.ioc.annotation.FindViewById;
 import com.aesean.injectlib.ioc.annotation.OnClick;
 import com.aesean.injectlib.ioc.annotation.OnLongClick;
 import com.aesean.injectlib.ioc.annotation.SetContentView;
 
 @SetContentView(R.layout.activity_main)
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @FindViewById(R.id.bt_Inject)
     private Button bt_Inject;
@@ -37,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        InjectActivity.inject(this);
     }
 
     /**
